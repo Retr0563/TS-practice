@@ -1,17 +1,14 @@
 // import Counter from "./components/Counter";
-import UserInfo from "./components/UserInfo";
+// import UserInfo from "./components/UserInfo";
+
+import TodoList from "./components/TodoList";
 
 const App = () => {
   return (
     <div>
-      {/* <Counter /> */}
-      <UserInfo
-        id="Retr0"
-        age={29}
-        email="nanayaw1@yahoo.com"
-        phone={233208823584}
-        DOB="02-05-1996"
-      />
+      {/* <Counter/> */}
+      {/* <UserInfo /> */}
+      <TodoList />
     </div>
   );
 };
