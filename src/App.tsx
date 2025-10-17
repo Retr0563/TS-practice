@@ -1,12 +1,12 @@
-import Counter from "./Components/Counter";
-import UserInfo from "./Components/UserInfo";
+// import Counter from "./components/Counter";
+import UserInfo from "./components/UserInfo";
 
 const App = () => {
   return (
     <div>
-      <Counter />
+      {/* <Counter /> */}
       <UserInfo
-        userName="Retr0 Boakye Yiadom"
+        id="Retr0"
         age={29}
         email="nanayaw1@yahoo.com"
         phone={233208823584}
