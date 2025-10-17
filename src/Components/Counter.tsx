@@ -5,9 +5,9 @@ const Counter = () => {
   return (
     <div>
       <h1>Counter App</h1>
-      <p>COunt : {count}</p>
-      <button onClick={() => setCount(count + 1)}>Increment</button>
-      <button onClick={() => setCount(count - 1)}>Decrement</button>
+      <p>Count : {count}</p>
+      <button onClick={() => setCount(count + Math.random())}>Increment</button>
+      <button onClick={() => setCount(count - Math.random())}>Decrement</button>
     </div>
   );
 };
