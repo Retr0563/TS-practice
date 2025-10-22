@@ -1,3 +1,4 @@
+import "../Forms.css";
 import { useRef, useState, type FormEvent } from "react";
 
 interface submitData {
@@ -19,15 +20,21 @@ const Forms = () => {
   const password = useRef<HTMLInputElement>(null);
   const phone = useRef<HTMLInputElement>(null);
 
-  const handleSubmit(e: FormEvent<HTMLFormElement>) => {
-    e.preventDefault()
-  
-const namevalue
-}
+  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
 
+    const nameValue = name.current!.value;
+    const emailValue = email.current!.value;
+    const passwordValue = password.current!.value;
+    const phoneValue = phone.current!.value;
 
-
-
+    setData({
+      name: nameValue,
+      email: emailValue,
+      password: passwordValue,
+      phone: Number(phoneValue) || 0,
+    });
+  };
 
   return (
     <>
@@ -36,13 +43,11 @@ const namevalue
         <input type="email" placeholder="Enter Email Address" ref={email} />
         <input
           type="password"
-          placeholder="Enter New PPassword"
+          placeholder="Enter New Password"
           ref={password}
         />
         <input type="number" placeholder="Enter Phone Number" ref={phone} />
-        <button type="submit" onClick={handleClick}>
-          Submit
-        </button>
+        <button type="submit">Submit</button>
 
         <section>
           <h1>Name: {data.name} </h1>

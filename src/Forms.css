@@ -1,0 +1,17 @@
+input {
+  display: block;
+  margin: 3rem auto;
+  padding: 0.5rem;
+  font-size: 2rem;
+}
+
+button {
+  display: block;
+  margin: 3rem auto;
+  padding: 0.5rem 2rem;
+  font-size: 2rem;
+  cursor: pointer;
+  border-radius: 25px;
+  color: black;
+  background-color: #fcc1;
+}
