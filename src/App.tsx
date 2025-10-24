@@ -1,7 +1,11 @@
 // import Counter from "./components/Counter";
 // import UserInfo from "./components/UserInfo";
 
-import EventHandling from "./components/EventHandling";
+// import Counters from "./components/UseReducer/Counters";
+
+// import CounterReducer from "./components/CounterReducer";
+
+// import EventHandling from "./components/EventHandling";
 
 // import ContactForm from "./components/ContactForm";
 // import FocusInput from "./components/FocusInput";
@@ -18,7 +22,9 @@ const App = () => {
       {/* <Forms /> */}
       {/* <FocusInput /> */}
       {/* <ContactForm /> */}
-      <EventHandling />
+      {/* <EventHandling /> */}
+      {/* <CounterReducer /> */}
+      {/* <Counters /> */}
     </div>
   );
 };
