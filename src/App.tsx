@@ -1,6 +1,8 @@
 // import Counter from "./components/Counter";
 // import UserInfo from "./components/UserInfo";
 
+import MyEffect from "./components/MyEffect";
+
 // import Counters from "./components/UseReducer/Counters";
 
 // import CounterReducer from "./components/CounterReducer";
@@ -25,6 +27,7 @@ const App = () => {
       {/* <EventHandling /> */}
       {/* <CounterReducer /> */}
       {/* <Counters /> */}
+      <MyEffect />
     </div>
   );
 };
